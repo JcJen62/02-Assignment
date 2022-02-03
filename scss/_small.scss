@@ -1,0 +1,329 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(224, 243, 251);
+    color: black;
+    padding: 0 3rem;
+    display: flex;
+}
+
+.headWrap {
+    background-color: rgb(224, 243, 251);
+}
+
+header h1 {
+    margin: 1rem 0 0 0;
+}
+
+.phone {
+    color: black;
+    margin-left: auto;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+header figure {
+    float: left;
+    margin: 0 1% 0 0;
+}
+
+body {
+    margin: auto;
+}
+
+// Nav
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+#form {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    top: -45px;
+
+    input {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        border-radius: 0.2rem;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        display: block;
+        transition: all 0.3s;
+        margin-top: 0.3rem;
+        width: 10rem;
+    }
+
+    button {
+        margin: 0;
+    }
+
+    i {
+        font-size: 20px;
+    }
+}
+
+nav {
+    background-color: $primaryColor;
+    font-family: Verdana, sans-serif;
+}
+
+.navWrap {
+    background-color: $primaryColor;
+}
+
+
+
+// Main
+main {
+    padding: 0 2%;
+    display: block;
+    min-height: 10rem;
+
+    h1 {
+        color: rgb(0, 65, 65);
+    }
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+#take {
+    width: 200px;
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 75%;
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+#take:hover {
+    opacity: 100%;
+    transition: opacity .25s ease-in-out;
+}
+
+#family:hover {
+    opacity: 100%;
+    transition: opacity .25s ease-in-out;
+}
+
+#urban:hover {
+    opacity: 100%;
+    transition: opacity .25s ease-in-out;
+}
+
+#hotel:hover {
+    opacity: 100%;
+    transition: opacity .25s ease-in-out;
+}
+
+.date {
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 90%;
+    text-align: center;
+    padding: 0.4rem;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 90%;
+    text-align: center;
+    padding: 0.4rem;
+}
+
+#family {
+    width: 200px;
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 75%;
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+#urban {
+    width: 200px;
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 75%;
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+#hotel {
+    width: 200px;
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 75%;
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+// Footer
+#socialWrap {
+    background-color: $primaryColor;
+    text-align: center;
+
+    a {
+        margin: 0.5rem;
+        color: white;
+        font-size: 3rem;
+    }
+}
+
+#emailInput {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    display: block;
+    transition: all 0.3s;
+    margin-top: 0.3rem;
+    width: 96%;
+    padding: 0.5rem;
+}
+
+#subEmail {
+    border: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    margin: 0 0 2rem 0;
+    padding: 0.75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+#subFoot {
+    background-color: $primaryColor;
+    color: white;
+}
+
+.phone2{
+    color: white;
+    text-decoration: none;
+}
+
+#subWrap {
+    background-color: $primaryColor;
+    padding: 0 2%;
+}
+
+.footerRow{
+    margin-right: 1rem;
+}
+
+#addressLink {
+    text-decoration: none;
+    color: white;
+}
+
+div.footerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.footWrap {
+    background-color: rgb(224, 243, 251);
+}
+
+footer {
+    background-color: rgb(224, 243, 251);
+    padding: .5rem 2%;
+    text-align: center;
+    color: black;
+    font-size: large;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
