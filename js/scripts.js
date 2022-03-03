@@ -13,7 +13,7 @@ var x = document.getElementById('hamburgerBtn');
 x.onclick= toggleMenu;
 
 
-// Adds activeLink class to current menu item
+// Adds active class to current menu item
 var urlString = document.location.href;
 
 var urlArray = urlString.split('/');
@@ -27,15 +27,15 @@ if (pageHREF !== "") {
         var currentURL = (menu[i].getAttribute("href"));
 
         if (currentURL === pageHREF) {
-            menu[i].parentNode.className = "activeLink";
+            menu[i].parentNode.className = "active";
 
             if(menu[i].parentNode.parentNode.parentNode.tagName === "LI") {
-                menu[i].parentNode.parentNode.parentNode.className = "parent activeLink";
+                menu[i].parentNode.parentNode.parentNode.className = "parent active";
             }
         } else {
             menu[i].parentNode.className = "";
         }
     } // End of search for a match
 } else {
-    menu[0].parentNode.className = "activeLink";
+    menu[0].parentNode.className = "active";
 }

@@ -59,7 +59,7 @@
           <ul id="primaryNav">
             <li><a href="index.php">Home</a></li>
             <li><a href="cruise.php">Cruises</a></li>
-            <li class="active parent">
+            <li class="parent">
               <a href="#">Agents</a>
               <ul>
                 <li><a href="agent1.php">Sally Rogers</a></li>
