@@ -29,7 +29,7 @@
         <div id="urban">
           <img src="images/urban.jpg" alt="urban" />
           <div class="title">Urban Vactions</div>
-          <div id="date">May 1, 2021</div>
+          <div class="date">May 1, 2021</div>
         </div>
 
         <div id="family">
