@@ -784,6 +784,90 @@ main {
     width: 90%;
     height: auto; }
 
+#bookBtn {
+  margin: 1rem 0;
+  cursor: pointer;
+  color: #fff;
+  padding: .75rem 2rem;
+  border: none;
+  width: 100%;
+  background-color: #8dafce;
+  border-radius: 5px; }
+
+#bookBtn:hover {
+  background-color: #bccedd; }
+
+.bookingHeader {
+  margin: 1rem 0 0 .5rem; }
+
+form label.labelInfo {
+  display: block;
+  font-size: .8rem;
+  margin: 0;
+  padding: 1rem 0 0 0; }
+
+form label.labelInfo input, form label.labelInfo select {
+  display: block;
+  font-size: 1rem;
+  margin: .25rem 0 .5rem 0;
+  padding: .75rem;
+  border: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%; }
+
+form label.labelInfo input:required {
+  border-left: 5px solid red; }
+
+form label.labelInfo input:required:valid {
+  border-left: 5px solid #8dafce; }
+
+.cruiseDescription a {
+  text-decoration: none;
+  cursor: pointer; }
+
+.cruiseDescription a button {
+  cursor: pointer;
+  background-color: #8dafce;
+  color: #fff;
+  padding: .5rem 2rem;
+  border: none;
+  width: 100%; }
+
+h2.cruisesHeader {
+  margin: 1rem 0 0 .5rem; }
+
+#cruisesDiv {
+  margin: 1rem .5rem 2rem .5rem; }
+
+.cruiseOption {
+  margin-top: 1.5rem; }
+
+.cruiseOption h3 {
+  margin-bottom: .5rem; }
+
+.cruiseOption img {
+  width: 100%; }
+
+.cruiseOption p {
+  line-height: 1.5rem;
+  margin: 0 0 .5rem 0; }
+
+.cruiseDescription a {
+  text-decoration: none;
+  cursor: pointer; }
+
+.cruiseDescription a button {
+  cursor: pointer;
+  background-color: #8dafce;
+  color: #fff;
+  padding: .5rem 2rem;
+  border: none;
+  width: 100%;
+  border-radius: 5px; }
+
+.cruiseDescription a button:hover {
+  background-color: #bccedd; }
+
 #socialWrap {
   background-color: #8dafce;
   text-align: center; }
@@ -1019,6 +1103,43 @@ footer {
       left: auto;
       margin-left: 0; }
 
+  form label.labelInfo input, form label.labelInfo select {
+    width: 60%; }
+
+  #bookBtn {
+    width: 60%; }
+
+  .cruiseOption {
+    margin-left: 0;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr; }
+
+  .cruiseOption h3 {
+    margin-top: 0; }
+
+  .cruiseOption img {
+    width: 350px; }
+
+  .cruiseDescription {
+    grid-column: 2 / span 2; }
+
+  .cruiseDescription a {
+    display: flex;
+    justify-content: flex-end; }
+
+  .cruiseDescription a button {
+    width: auto; }
+
+  /*----------- Agent Pages --------------*/
+  .agentDiv {
+    margin: 1rem .5rem; }
+
+  .agentImage {
+    float: right;
+    margin: 0 0 .5rem .5rem;
+    width: auto; }
+
   div.footerGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1034,6 +1155,12 @@ footer {
 
   main {
     margin: auto; }
+
+  form label.labelInfo input, form label.labelInfo select {
+    width: 35%; }
+
+  #bookBtn {
+    width: 35%; }
 
   div.footerGrid {
     display: grid;
