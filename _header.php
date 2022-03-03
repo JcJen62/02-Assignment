@@ -57,8 +57,8 @@
 
         <div class="menu-container">
           <ul id="primaryNav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Cruises</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="cruise.php">Cruises</a></li>
             <li class="active parent">
               <a href="#">Agents</a>
               <ul>
