@@ -62,10 +62,11 @@
             <li class="active parent">
               <a href="#">Agents</a>
               <ul>
-                <li><a href="#">Sally Rogers</a></li>
-                <li><a href="#">Buddy Sorrell</a></li>
+                <li><a href="agent1.php">Sally Rogers</a></li>
+                <li><a href="agent2.php">Buddy Sorrell</a></li>
               </ul>
             </li>
+            <li><a href="bookCruise.php">Book</a></li>
           </ul>
         </div>
 
