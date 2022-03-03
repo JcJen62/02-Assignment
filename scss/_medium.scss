@@ -64,12 +64,48 @@ nav {
     }
 }
 
+form label.labelInfo input, form label.labelInfo select {
+	width: 60%;
+}
+
+#bookBtn {
+	width: 60%;
+}
+
+.cruiseOption {
+	margin-left: 0;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.cruiseOption h3 {
+	margin-top: 0;
+}
+.cruiseOption img {
+	width: 350px;
+}
+.cruiseDescription {
+	grid-column: 2 / span 2;
+}
+.cruiseDescription a {
+	display: flex;
+	justify-content: flex-end;
+}
+.cruiseDescription a button {
+	width: auto;
+}
 
 
-main {
-    .cards {
-        // column-count: 3;
-    }
+/*----------- Agent Pages --------------*/
+
+.agentDiv {
+	margin: 1rem .5rem;
+}
+
+.agentImage {
+	float: right;
+	margin: 0 0 .5rem .5rem;
+	width: auto;
 }
 
 div.footerGrid {

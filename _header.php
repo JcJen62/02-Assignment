@@ -57,15 +57,16 @@
 
         <div class="menu-container">
           <ul id="primaryNav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Cruises</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="cruise.php">Cruises</a></li>
             <li class="active parent">
               <a href="#">Agents</a>
               <ul>
-                <li><a href="#">Sally Rogers</a></li>
-                <li><a href="#">Buddy Sorrell</a></li>
+                <li><a href="agent1.php">Sally Rogers</a></li>
+                <li><a href="agent2.php">Buddy Sorrell</a></li>
               </ul>
             </li>
+            <li><a href="bookCruise.php">Book</a></li>
           </ul>
         </div>
 

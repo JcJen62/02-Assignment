@@ -9,11 +9,16 @@ nav ul li a {
 
 main {
     margin: auto;
-
-    .cards {
-        // column-count: 4;
-    }
 }
+
+form label.labelInfo input, form label.labelInfo select {
+	width: 35%;
+}
+
+#bookBtn {
+	width: 35%;
+}
+
 
 div.footerGrid {
     display: grid;
