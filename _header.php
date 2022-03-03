@@ -6,7 +6,7 @@
     <meta name="author" content="John Doe" />
 
     <!-- This start file was build by Paul Cheney  -->
-    <title>Assignment 1</title>
+    <title>Assignment 2</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta
